@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
+
+body {
+	overflow: hidden;
+	background: #0F2027;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+	background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+	font-family: 'Chakra Petch', sans-serif;
+}
+
+td {
+	border:  2px solid #fff;
+	height:  100px;
+	width:  100px;
+	text-align:  center;
+	vertical-align:  middle;
+	font-family: 'Chakra Petch', sans-serif;
+	font-size:  70px;
+	color: aliceblue;
+	cursor: pointer;
+	transition: all ease-in-out .3s;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table tr:first-child td {
+	border-top: 0;
+}
+
+table tr:last-child td {
+	border-bottom: 0;
+}
+
+table tr td:first-child {
+	border-left: 0;
+}
+
+table tr td:last-child {
+	border-right: 0;
+}
+
+.endgame {
+  display: none;
+  width: 250px;
+  top: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -120px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+
+.wrapper {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.replay-btn {
+	position: absolute;
+	bottom: 10px;
+	background: none;
+	border: none;
+	font-size: 1.5em;
+	font-family: 'Chakra Petch', sans-serif;
+	cursor: pointer;
+	transition: all ease-in-out .1s;
+}
+
+.replay-btn:hover {
+	transform: scale(1.1)
+}
